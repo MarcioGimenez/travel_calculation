@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+ webserver-travel:
+    build: .
+    ports:
+      - "8185:80"
+    extra_hosts:
+      - "travelcalculation.com/:127.0.0.1"
+    volumes:
+      - ../:/var/www/html
+      - ./apache2/sites-enabled:/etc/apache2/sites-enabled
