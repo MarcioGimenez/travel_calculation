@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":206:{a:2:{s:7:"defects";a:2:{s:28:"RestTest::testMethodNotFound";i:5;s:29:"RestTest::testResponseSuccess";i:4;}s:5:"times";a:2:{s:28:"RestTest::testMethodNotFound";d:0;s:29:"RestTest::testResponseSuccess";d:0;}}}

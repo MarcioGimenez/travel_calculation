@@ -12,15 +12,18 @@ class travelProcess
   public function routeProcess($from, $to)
   {
     $data = $this->readCsv($this->path);
+    return $data;
   }
   
   private function readCsv($file)
   {
+    $allData = [];
     if (($handle = fopen($file, "r")) !== FALSE) {
       while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        var_dump($data);
+        $allData[] = $data;
       }
       fclose($handle);
+      return $allData;
     }
   }
 }
