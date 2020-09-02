@@ -6,7 +6,7 @@ Esse programa facilita ao nosso turista, escolher a melhor rota para sua viagem.
 Para isso podemos consultar ou inserir as rotas através de uma Api Rest.
 
 
-## Explicando os Diretórios## 
+## Explicando os Diretórios ##
 
 
 * **api** diretório utilizado para armazenar os arquivos que processam a api Rest.
