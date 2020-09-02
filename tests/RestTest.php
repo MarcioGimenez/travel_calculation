@@ -5,6 +5,7 @@ use PHPUnit\Framework\TestCase;
 require_once 'api/v1/Rest.php';
 require_once 'api/v1/Travel.php';
 require_once 'app/business/TravelProcess.php';
+require_once 'config/config.php';
 
 final class RestTest extends TestCase
 {

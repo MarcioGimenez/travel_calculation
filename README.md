@@ -20,9 +20,11 @@ Para isso podemos consultar ou inserir as rotas através de uma Api Rest.
 
 
 ### Execução do programa ###
-Após clonar o projeto basta editar o arquivo **/etc/hosts** adicionando a linha ```127.0.0.1 travelcalculation.com```
+* Após clonar o projeto basta editar o arquivo **/etc/hosts** adicionando a linha ```127.0.0.1 travelcalculation.com```
 depois acessar o diretório **docker** e rodar o comando ```docker-compose up```
-para utilizar a interface por linha de comando acesse o diretório **cli** e execute ```php cli.php```
+* para utilizar a interface por linha de comando acesse o diretório **cli** e execute ```php cli.php```
+* para acessar o container utilize ```docker exec -ti docker_webserver-travel_1 bash```
+* para executar os testes unitários utilize ```./phpunit tests```
 
 ## Documentação da Api Rest ##
 Os arquivos com a documentação e testes criados no **Postman** estão no diretório ```postman``` ou no link https://documenter.getpostman.com/view/1131744/TVCfV7tr
